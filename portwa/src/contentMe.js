@@ -1,30 +1,28 @@
 const logotext = " HomePage ";
 const meta = {
-    title: "{Your name}",
-    description: "I'm {Your name}, a technologist and cybersecurity enthuist.",
+    title: "WACHIRAPORN",
 };
 
 const introdata = {
-    title: "Hi, I'm Wachiraporn Kaewnoo",
+    title: "WACHIRAPORN KAEWNOO",
     animated: {
         first: "Electornic",
         second: "Computer",
         third: "Technology",
         
     },
-    description: "Dedicated .",
-    your_img_url: "me.jpg",
-    
+    description: "Electornic Computer Technology",
+    your_img_url: "me.jpg", 
 };
 
 const dataabout = {
     title: "Wachi",
-    aboutme: " ...",
+    aboutme: " ssssssssssssssssssssss",
 };
 const worktimeline = [{
-        jobtitle: "Example 1",
-        where: "Google",
-        date: "2023",
+        jobtitle: " Teaching Assistant teaches subjects related to computers and electronics.",
+        where: " ELECTRONICS DEPARTMENT AT E-TECH COLLEGE",
+        date: "April - May 2022",
     },
 ];
 

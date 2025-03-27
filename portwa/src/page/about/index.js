@@ -20,7 +20,7 @@ export const About = () => {
           </Col>
         </Row>
         <Row className="sec_sp">
-          <Col lg="7" className="d-flex justify-content-center align-items-center">
+          <Col lg="10" className="d-flex justify-content-center align-items-center">
             <p>{dataabout.aboutme}</p>
           </Col>
         </Row>

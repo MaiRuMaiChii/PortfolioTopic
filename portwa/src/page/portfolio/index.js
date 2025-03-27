@@ -3,6 +3,8 @@ import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { dataportfolio, meta } from "../../contentMe";
+import wachii from "../../assets/Pro.JPG"
+import wachii2 from "../../assets/Pro2.JPG"
 
 export const Portfolio = () => {
   return (
@@ -36,16 +38,15 @@ export const Portfolio = () => {
                 <Card className="po_item img flex-grow-1 me-2">
                   <Card.Img 
                     variant="top" 
-                    src={project.img3} 
-                    alt={project.description} 
+                    src={wachii}
                     className="po_item_img"
                   />
                 </Card>
                 <Card className="po_item img2 flex-grow-10">
                   <Card.Img 
                     variant="top" 
-                    src={project.img2} 
-                    alt={project.description} 
+                    src={wachii2} 
+                    
                     className="po_item_img2"
                   />
                 </Card>

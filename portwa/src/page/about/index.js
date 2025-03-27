@@ -28,14 +28,6 @@ export const About = () => {
         <br />
 
         <Row className="sec_sp">
-          <Col lg="7" className="d-flex justify-content-center align-items-center">
-            {Hobby.map((hobby, i) => (
-              <p key={i}>{hobby.MyHobby}</p>
-            ))}
-          </Col>
-        </Row>
-        <hr />
-        <Row className="sec_sp">
           <Col lg="5">
             <h3 className="color_sec py-4">My Skills</h3>
           </Col>
@@ -64,24 +56,6 @@ export const About = () => {
         </Row>
         <hr />
 
-       
-        <Row className="sec_sp">
-          <Col lg="5" className="d-flex justify-content-start">
-            <h3 className="color_sec py-4">Resume</h3>
-  </Col>
-  <Col lg="7" className="d-flex justify-content-start">
-    <a
-      href="/Resume_Wachiraporn.pdf"  
-      target="_blank"
-      rel="noopener noreferrer"
-      className="btn btn-primary"
-    >
-      View Resume (PDF)
-    </a>
-  </Col>
-</Row>
-
-        <hr />
       </Container>
     </HelmetProvider>
   );

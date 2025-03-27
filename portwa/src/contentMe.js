@@ -6,54 +6,46 @@ const meta = {
 const introdata = {
     title: "WACHIRAPORN KAEWNOO",
     animated: {
-        first: "Electornic",
-        second: "Computer",
-        third: "Technology",
-        
+        first: "Welcome To My Portfolio",
     },
     description: "Electornic Computer Technology",
-    your_img_url: "me.jpg", 
+    your_img: "wachii.jpg", 
 };
 
 const dataabout = {
-    title: "Wachi",
-    aboutme: " ssssssssssssssssssssss",
+    aboutme: "Hi! My name is Wachiraporn Kaewnoo. I was born in 2002. I am 22 years old.Now I'm studying bachelor's in Electronic Computer Technology at King Mongkut's University of Technology North Bangkok.",
 };
-const worktimeline = [{
-        jobtitle: " Teaching Assistant teaches subjects related to computers and electronics.",
-        where: " ELECTRONICS DEPARTMENT AT E-TECH COLLEGE",
-        date: "April - May 2022",
+const Hobby = [{
+    MyHobby :"I am a peaceful person who loves nature and adores pets. In my free time, I enjoy playing with my pets and playing the guitar. I love singing and listening to music. I can sit and listen to songs all day when I'm at home. But if I get the chance to go out, I prefer places surrounded by nature, with lots of trees and greenery. Just being in that kind of environment makes me happy.",
+    },
+];
+
+const Future = [{
+    MyFuture :"In the future, I want to work in the computer field and become a good computer engineer. I aim to have a good job position, and eventually, I want to start my own business to ensure financial stability in life. ",
     },
 ];
 
 const skills = [{
         name: "Python basic",
     },
-    
     {
         name: "C",
     },
-    
     {
         name: "Java",
     },
-    
     {
         name: "C++",
     },
-
     {
         name: "Flutter",
     },
-
     {
         name: "React",
     },
-
     {
         name: "HTML",
     },
-
     {
         name: "PHP",
     },
@@ -69,10 +61,11 @@ const dataportfolio = [{
 
 const contactConfig = {
     YOUR_EMAIL: "neiywachi@gmail.com",
-    description: "!",
-    YOUR_SERVICE_ID: "SERVICE_ID",
-    YOUR_TEMPLATE_ID: "TEMPLATE_ID",
-    YOUR_USER_ID: "USER_ID (PUBLIC_KEY)",
+    YOUR_FACEBOOK: "https://www.facebook.com/neiymeiyna",
+    YOUR_LINE: "Neiyyyy",
+    YOUR_TEL: "093-450xxxx",
+    YOUR_GITHUB: "https://github.com/MaiRuMaiChii",
+    YOUR_IMAGE : "me.jpg"
 };
 
 const socialprofils = {
@@ -82,10 +75,12 @@ export {
     meta,
     dataabout,
     dataportfolio,
-    worktimeline,
+    Hobby,
+    Future,
     skills,
     introdata,
     contactConfig,
     socialprofils,
     logotext,
+
 };

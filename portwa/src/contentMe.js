@@ -55,11 +55,22 @@ const skills = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "Mobile Application for food Calorie Detection and Analysis through Image Recognition and Barcode Scanning",
+        img: "Pro.jpg",
+        img2: "Pro2.jpg",
+        img3: "reactapp.jpg",
+        
+        description2:"quiz-app",
+        link1:"https://github.com/MaiRuMaiChii/quiz-app_67.git",
+
+        description3:"Webboard",
+        link2:"https://github.com/MaiRuMaiChii/Webboard_Wachi.git",
+
+        description4:"Mini-project",
+        link3:"https://github.com/MaiRuMaiChii/TopicFinal.git",
+
+        detail: "A mobile application for detecting and analyzing food calories using image recognition and barcode scanning. Users can take pictures or scan barcodes to view the calorie content and nutritional information of the food they eat. Additionally, the app features a Food Diary for users to log their meals, making it easier to track their daily food intake. This app is ideal for individuals who want to control and monitor the calories they consume each day. "
     },
-    
 ];
 
 const contactConfig = {

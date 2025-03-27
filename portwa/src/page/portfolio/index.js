@@ -36,7 +36,7 @@ export const Portfolio = () => {
                 <Card className="po_item img flex-grow-1 me-2">
                   <Card.Img 
                     variant="top" 
-                    src={project.img} 
+                    src={project.img3} 
                     alt={project.description} 
                     className="po_item_img"
                   />
